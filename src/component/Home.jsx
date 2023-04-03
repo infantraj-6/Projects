@@ -27,7 +27,7 @@ const Home = () => {
       .then((res) => {
         setMsg("Delete Sucessfully");
         init();
-      }).
+      })
       .catch((error) => {
         console.log(error);
       });
